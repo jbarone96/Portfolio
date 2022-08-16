@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-body {
-  height: 100%;
-  margin: 0;
+.nav-link {
+  margin-right: 25px;
 }
 
 .portfolio-pieces {
@@ -37,4 +36,73 @@ body {
   height: 50px;
 }
 
+.list-group {
+  width: 250px;
+  height: 50px;
+  margin: auto;
+}
+
+.paragraph {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+}
+
+.text {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+}
+
+.text-title {
+  padding: 5px;
+  width: 50%;
+  margin: auto;
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.title-ed, h6 {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  font-weight: 700;
+  margin-top: 15px;
+  padding-top: -10px;
+}
+
+.title-ed, h5:nth-child(2) {
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+
+.text-ed {
+  text-align: left;
+  width: 50%;
+  margin: auto;
+  padding-top: 5px;
+}
+
+.link {
+  display: flex;
+}
+
+.list-group {
+  z-index: -1;
+}
+
+b {
+  padding-right: 5px;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+}
 
