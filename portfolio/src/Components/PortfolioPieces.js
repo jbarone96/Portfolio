@@ -16,9 +16,9 @@ const PortfolioPieces = () => {
         <ListGroup.Item
           action
           className="d-flex justify-content-center align-items-cent m-auto"
-          href="https://github.com/KenzieAcademy-Students/snippets-app-jbarone96"
+          href="https://github.com/KenzieAcademy-Students/kenziecart-app-jbarone96"
         >
-          <div className="item">Snippets Application</div>
+          <div className="item">Kenzie Cart</div>
         </ListGroup.Item>
         <ListGroup.Item
           action
@@ -26,6 +26,13 @@ const PortfolioPieces = () => {
           href="https://github.com/KenzieAcademy-Students/kenziecart-app-jbarone96"
         >
           <div className="item">Hardware Store</div>
+        </ListGroup.Item>
+        <ListGroup.Item
+          action
+          className="d-flex justify-content-center align-items-cent m-auto"
+          href="https://github.com/KenzieAcademy-Students/kenziecart-app-jbarone96"
+        >
+          <div className="item">Capstone Project</div>
         </ListGroup.Item>
       </ListGroup>
     </>
