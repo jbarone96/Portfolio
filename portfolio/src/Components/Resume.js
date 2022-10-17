@@ -1,10 +1,16 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
+import { ListGroup, Modal } from "react-bootstrap";
+import Particle from "./Particle";
 
 const Resume = () => {
   return (
     <>
-      <h2 className="resume">My Resume</h2>
+      <Particle />
+      <Modal>
+        <Modal.Header>My Resume</Modal.Header>
+        <Modal.Body>I am bob and you are an ass</Modal.Body>
+      </Modal>
+      {/* <h2 className="resume">My Resume</h2>
 
       <h1 className="text-title">Jordan Barone</h1>
       <h3 className="text">Front End Software Developer</h3>
@@ -174,7 +180,7 @@ const Resume = () => {
       <p className="text-ed">
         - Oversaw a team of 8 employees and created a method to improve customer
         feedback that grew 50% during my time at this location.
-      </p>
+      </p> */}
     </>
   );
 };

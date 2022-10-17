@@ -1,10 +1,12 @@
 import React from "react";
 import { ListGroup } from "react-bootstrap";
+import Particle from "./Particle";
 
 const PortfolioPieces = () => {
   return (
     <>
-      <h2 className="portfolio-pieces">Portfolio Pieces</h2>
+      <Particle />
+      <h2 className="portfolio-pieces">Projects</h2>
       <ListGroup defaultActiveKey="#link1">
         <ListGroup.Item
           action
@@ -30,7 +32,7 @@ const PortfolioPieces = () => {
         <ListGroup.Item
           action
           className="d-flex justify-content-center align-items-cent m-auto"
-          href="https://github.com/KenzieAcademy-Students/kenziecart-app-jbarone96"
+          href="http://18.233.97.130/"
         >
           <div className="item">Capstone Project</div>
         </ListGroup.Item>
