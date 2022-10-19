@@ -6,6 +6,19 @@ import { BiHomeAlt } from "react-icons/bi";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { HiOutlineMail, HiOutlineCollection } from "react-icons/hi";
+import {
+  TiWeatherCloudy,
+  TiWeatherDownpour,
+  TiWeatherNight,
+  TiWeatherPartlySunny,
+  TiWeatherShower,
+  TiWeatherSnow,
+  TiWeatherStormy,
+  TiWeatherSunny,
+  TiWeatherWindyCloudy,
+  TiWeatherWindy,
+} from "react-icons/ti";
+
 const NavBar = () => {
   return (
     <>
@@ -19,7 +32,7 @@ const NavBar = () => {
               <BiHomeAlt style={{ marginBottom: "5px", marginRight: "4px" }} />
               Home
             </Link>
-            <Link className="nav-link" to="/Portfolio">
+            <Link className="nav-link" to="/Projects">
               <HiOutlineCollection
                 style={{ marginBottom: "5px", marginRight: "4px" }}
               />

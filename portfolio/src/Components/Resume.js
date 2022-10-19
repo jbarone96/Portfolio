@@ -8,7 +8,7 @@ const Resume = () => {
       <Particle />
       <Modal>
         <Modal.Header>My Resume</Modal.Header>
-        <Modal.Body>I am bob and you are an ass</Modal.Body>
+        <Modal.Body>You are dumb and you are an ass</Modal.Body>
       </Modal>
       {/* <h2 className="resume">My Resume</h2>
 

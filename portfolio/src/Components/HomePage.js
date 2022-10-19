@@ -1,5 +1,5 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Particle from "./Particle";
 
 const HomePage = () => {
@@ -31,12 +31,17 @@ const HomePage = () => {
           <div className="hello-section">
             <h1 className="intro">{displayTimeOfDay()}</h1>
             <h1 className="intro">
-              I'm Jordan.
+              I'm Jordan
               <span className="wave" role="img" aria-labelledby="wave">
                 👋🏽
               </span>
             </h1>
-            <h2 className="intro">A Software Developer| </h2>
+            <h2
+              className="intro"
+              style={{ fontSize: "24px", marginTop: "20px" }}
+            >
+              A Software Developer|{" "}
+            </h2>
           </div>
         </div>
       </Container>
