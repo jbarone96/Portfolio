@@ -22,9 +22,11 @@ import {
 const NavBar = () => {
   return (
     <>
-      <Navbar variant="dark">
+      <Navbar variant="dark" style={{ fontFamily: "Rubik" }}>
         <Container>
-          <Navbar.Brand style={{ position: "relative", left: "-160px" }}>
+          <Navbar.Brand
+            style={{ position: "relative", left: "-160px", fontSize: "24px" }}
+          >
             Jordan's Portfolio
           </Navbar.Brand>
           <Nav style={{ position: "relative", right: "-190px" }}>

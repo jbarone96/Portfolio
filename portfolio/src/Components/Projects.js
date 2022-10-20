@@ -1,12 +1,12 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import Particle from "./Particle";
-import SwiperCore, { EffectCoverflow, Pagination, Navigation } from "swiper";
+import SwiperCore, { EffectCreative, Pagination, Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper-bundle.min.css";
 import "swiper/swiper.min.css";
 
-SwiperCore.use([EffectCoverflow, Pagination, Navigation]);
+SwiperCore.use([EffectCreative, Pagination, Navigation]);
 
 const Projects = () => {
   return (
@@ -19,18 +19,23 @@ const Projects = () => {
           Top Eats
         </div>
         <Swiper
-          effect={"coverflow"}
+          effect={"creative"}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
+          creativeEffect={{
+            prev: {
+              shadow: true,
+              translate: [0, 0, -400],
+            },
+            next: {
+              translate: ["100%", 0, 0],
+            },
           }}
-          pagination={true}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[EffectCreative]}
           navigation={true}
           loop={true}
           className="swiper"
@@ -91,25 +96,30 @@ const Projects = () => {
           className="paragraph"
           style={{
             marginBottom: "-20px",
-            marginTop: "100px",
+            marginTop: "50px",
             fontSize: "32px",
           }}
         >
           Online Store
         </div>
         <Swiper
-          effect={"coverflow"}
+          effect={"creative"}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
+          creativeEffect={{
+            prev: {
+              shadow: true,
+              translate: [0, 0, -400],
+            },
+            next: {
+              translate: ["100%", 0, 0],
+            },
           }}
-          pagination={true}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[EffectCreative]}
           navigation={true}
           loop={true}
           className="swiper"
@@ -200,25 +210,30 @@ const Projects = () => {
           className="paragraph"
           style={{
             marginBottom: "-20px",
-            marginTop: "100px",
+            marginTop: "50px",
             fontSize: "32px",
           }}
         >
           Connect Four
         </div>
         <Swiper
-          effect={"coverflow"}
+          effect={"creative"}
           grabCursor={true}
           centeredSlides={true}
           slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: false,
+          creativeEffect={{
+            prev: {
+              shadow: true,
+              translate: [0, 0, -400],
+            },
+            next: {
+              translate: ["100%", 0, 0],
+            },
           }}
-          pagination={true}
+          pagination={{
+            dynamicBullets: true,
+          }}
+          modules={[EffectCreative]}
           navigation={true}
           loop={true}
           className="swiper"
