@@ -1,23 +1,22 @@
 import React from "react";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Resume from "./Resume";
 import { BiHomeAlt } from "react-icons/bi";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { HiOutlineMail, HiOutlineCollection } from "react-icons/hi";
-import {
-  TiWeatherCloudy,
-  TiWeatherDownpour,
-  TiWeatherNight,
-  TiWeatherPartlySunny,
-  TiWeatherShower,
-  TiWeatherSnow,
-  TiWeatherStormy,
-  TiWeatherSunny,
-  TiWeatherWindyCloudy,
-  TiWeatherWindy,
-} from "react-icons/ti";
+// import {
+//   TiWeatherCloudy,
+//   TiWeatherDownpour,
+//   TiWeatherNight,
+//   TiWeatherPartlySunny,
+//   TiWeatherShower,
+//   TiWeatherSnow,
+//   TiWeatherStormy,
+//   TiWeatherSunny,
+//   TiWeatherWindyCloudy,
+//   TiWeatherWindy,
+// } from "react-icons/ti";
 
 const NavBar = () => {
   return (

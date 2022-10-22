@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, CardImg } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import Particle from "./Particle";
 
 const Contact = () => {
