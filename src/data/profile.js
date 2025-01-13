@@ -1,6 +1,9 @@
+// import profileImg from "";
+import logo from "../assets/Images/logo.png";
+
 const ProfileData = {
   // img: import("../assets/Images/profile_image.png"),
-  logo: import("../assets/Images/logo.jpeg"),
+  logo: logo,
   name: "Jordan Barone",
   titles: ["Frontend Developer", "Problem Solver", "Critical Thinker"],
   info: [

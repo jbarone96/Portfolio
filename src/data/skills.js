@@ -1,59 +1,74 @@
+import javascript from "../assets/Icons/js.png";
+import html from "../assets/Icons/html.png";
+import css from "../assets/Icons/css.png";
+import react from "../assets/Icons/react.png";
+import mongodb from "../assets/Icons/mongodb.png";
+import express from "../assets/Icons/express.png";
+import node from "../assets/Icons/node.png";
+import redux from "../assets/Icons/redux.png";
+import tailwind from "../assets/Icons/tailwind.png";
+import swift from "../assets/Icons/swift.png";
+import firebase from "../assets/Icons/firebase.png";
+import git from "../assets/Icons/git.png";
+import typescript from "../assets/Icons/typescript.png";
+import python from "../assets/Icons/python.png";
+
 const SkillsData = [
   {
     name: "JavaScript",
-    image: import("../assets/Icons/js.png"),
+    image: javascript,
   },
   {
     name: "HTML",
-    image: import("../assets/Icons/html.png"),
+    image: html,
   },
   {
     name: "CSS",
-    image: import("../assets/Icons/css.png"),
+    image: css,
   },
   {
     name: "React",
-    image: import("../assets/Icons/react.png"),
+    image: react,
   },
   {
     name: "MongoDB",
-    image: import("../assets/Icons/mongodb.png"),
+    image: mongodb,
   },
   {
     name: "Express",
-    image: import("../assets/Icons/express.png"),
+    image: express,
   },
   {
     name: "Node",
-    image: import("../assets/Icons/node.png"),
+    image: node,
   },
   {
     name: "Redux",
-    image: import("../assets/Icons/redux.png"),
+    image: redux,
   },
   {
     name: "Tailwind",
-    image: import("../assets/Icons/tailwind.png"),
+    image: tailwind,
   },
   {
     name: "Swift",
-    image: import("../assets/Icons/swift.png"),
+    image: swift,
   },
   {
     name: "Firebase",
-    image: import("../assets/Icons/firebase.png"),
+    image: firebase,
   },
   {
     name: "Git",
-    image: import("../assets/Icons/git.png"),
+    image: git,
   },
   {
     name: "Typescript",
-    image: import("../assets/Icons/typescript.png"),
+    image: typescript,
   },
   {
     name: "Python",
-    image: import("../assets/Icons/python.png"),
+    image: python,
   },
 ];
 
