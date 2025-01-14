@@ -41,7 +41,7 @@ const Projects = () => {
                   {project.name}
                 </h3>
                 <p className="px-2 text-lg text-white">{project.desc}</p>
-                <div className="flex-flex-wrap items-center gap-3 mt-3">
+                <div className="flex flex-wrap items-center gap-3 mt-3">
                   {project?.icons?.map((Icon, idx) => (
                     <div className="rounded-full p-2" key={idx}>
                       <Icon className="text-white text-4xl font-bold" />

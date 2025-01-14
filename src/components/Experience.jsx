@@ -19,7 +19,7 @@ const Experience = () => {
           </p>
         </div>
         <div className="flex flex-col md:grid grid-cols-9 mx-auto text-blue-50">
-          {ExperienceData?.reverse().map((exp, idx) => {
+          {ExperienceData?.map((exp, idx) => {
             const isLeft = idx % 2 === 0;
             return isLeft ? (
               <div

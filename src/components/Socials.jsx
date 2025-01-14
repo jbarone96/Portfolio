@@ -1,9 +1,14 @@
 import React from "react";
-import ContactData from "./Contact";
+import ContactData from "../data/contact";
 
 const Socials = () => {
   return (
-    <div>
+    <div
+      data-aos="zoom-in-up"
+      data-aos-duration="1500"
+      data-aos-once="false"
+      className="flex gap-5 my-4"
+    >
       {ContactData?.links?.map((link, idx) => (
         <a
           key={idx}
