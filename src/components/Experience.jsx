@@ -15,7 +15,7 @@ const Experience = () => {
             data-aos-once="false"
             className="text-lg mx-auto leading-relaxed font-medium text-dark-orange text-center"
           >
-            Professional Experience
+            My Professional Experience
           </p>
         </div>
         <div className="flex flex-col md:grid grid-cols-9 mx-auto text-blue-50">

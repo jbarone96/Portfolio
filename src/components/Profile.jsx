@@ -32,7 +32,7 @@ const Profile = () => {
             data-aos-once="false"
             className="title-font md:text-3xl text-2xl mb-4 text-center font-medium text-white"
           >
-            Hello, I am <span>{ProfileData.name}</span>
+            Hello, I'm <span>{ProfileData.name}</span>
           </h2>
           <div
             data-aos="zoom-in-up"
@@ -66,7 +66,7 @@ const Profile = () => {
             data-aos-once="false"
             className="mt-4 flex gap-x-4 md:gap-x-5 justify-center md:justify-between"
           >
-            <button className="inline-flex font-medium text-white bg-black-order-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
+            <button className="inline-flex font-medium text-white bg-darkerblue border-2 border-white py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
               <Link
                 to="contact"
                 spy={true}

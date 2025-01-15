@@ -51,7 +51,7 @@ const About = () => {
               data-aos-once="false"
               className="mt-7 flex gap-x-4 md:gap-x-5 justify-center md:justify-beween"
             >
-              <button className="inline-flex font-medium text-white bg-black border-2 border-black py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
+              <button className="inline-flex font-medium text-white bg-darkerblue border-2 border-black py-3 px-7 focus:outline-none hover:bg-cornsilk hover:border-dark-orange hover:text-black rounded-full text-md xl:px-10">
                 <Link
                   to="contact"
                   spy={true}

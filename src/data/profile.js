@@ -8,8 +8,8 @@ const ProfileData = {
   titles: ["Frontend Developer", "Problem Solver", "Critical Thinker"],
   info: [
     "Experience building full stack MERN applications.",
-    "Providing the best possible user experience.",
-    "Beginning my journey into the mobile app development world.",
+    "Always providing the best possible user experience.",
+    "Producing clean and scalable code.",
   ],
   resume: "",
 };

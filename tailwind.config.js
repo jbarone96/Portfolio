@@ -8,10 +8,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "dark-orange": "#FF5823",
-        cornsilk: "#FFF8DC",
-        darkblue: "#080831",
+        "dark-orange": "#4760eb",
+        cornsilk: "#7d8eec",
+        darkblue: "#1a237a",
         whitesmoke: "#F5F5F5",
+        darkerblue: "#000a40",
       },
     },
   },

@@ -45,7 +45,7 @@ const Contact = () => {
               data-aos="zoom-in-down"
               data-aos-duration="1000"
               data-aos-once="false"
-              className="hidden md:block text-2xl lg:text-3xl taxt-dark-orange font-medium mb-3 lg:mb-4"
+              className="hidden md:block text-2xl lg:text-3xl text-white font-medium mb-3 lg:mb-4"
             >
               Get In Touch
             </h1>
@@ -147,7 +147,7 @@ const Contact = () => {
               data-aos-once="false"
               className="p-2 w-full"
             >
-              <button className="font-medium mx-auto my-3 text-white bg-dark-orange border-0 py-2 px-12 focus:outline-none hover:scale-110 hover:bg-orange-600 transition duration-500 rounded-xl text-lg">
+              <button className="font-medium mx-auto my-3 text-white bg-dark-orange border-0 py-2 px-12 focus:outline-none hover:scale-110 hover:bg-dark-orange-600 transition duration-500 rounded-xl text-lg">
                 Send
               </button>
             </div>
