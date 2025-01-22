@@ -33,7 +33,7 @@ const About = () => {
               alt="profile image"
             />
           </div>
-          <div>
+          <div className="lg:w-1/2 justify-center lg:p-5 xl:p-7 md:p-5 flex flex-col items-center text-justify">
             {AboutData.desc?.map((item, idx) => (
               <p
                 key={idx}
